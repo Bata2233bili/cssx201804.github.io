@@ -1,0 +1,51 @@
+body
+{
+    background-image: url(./image/rrharil.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.login-box
+{
+    background-color: rgba(0,0,0,0.3);
+    /* border: 8px solid;
+    /* border-radius: 20px; */ 
+    border-radius: 25px;
+    box-shadow: 0 0 17px #333;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 35%;
+    top: 40%;
+}
+
+.btn
+{
+    width: 70px;
+    height: 40px;
+    border: 5px;
+    border-radius: 15px;
+    background-color: rgb(161, 161, 255);
+    transition: background-color 0.4s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+
+}
+.btn:hover
+{
+    background-color: rgb(208, 213, 250);
+}
+.login-box input
+{
+    width: 200px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    
+}
